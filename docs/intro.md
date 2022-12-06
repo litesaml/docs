@@ -1,47 +1,34 @@
 ---
 sidebar_position: 1
+title: Hello
 ---
 
-# Tutorial Intro
+The core library LightSaml was designed for developers who want
+to deal with [SAML 2.0](http://saml.xml.org/saml-specifications) protocol in [PHP](https://php.net/) application.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Installation
 
-## Getting Started
+You can install our package via composer :
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```
+composer require litesaml/lightsaml
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+# Features
 
-The command also installs all necessary dependencies you need to run Docusaurus.
++ [Build Metadata for you ServiceProvider or IdentityProvider](build-metadata)
++ [Make Request or Response](make-message)
++ [Send or receive Message](use-message)
++ [Apply security like Message signature or encrypt assertions](security)
 
-## Start your site
+---
 
-Run the development server:
+## About the project
 
-```bash
-cd my-website
-npm run start
-```
+The core library LightSaml was originally develop by [Milos Tomic](https://github.com/tmilos/).  
+Since 2021, we maintain the core library with contributors.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### Contributing
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+You are welcome to contribute to our project.  
+[Follow our guide](contributing) and discuss !
