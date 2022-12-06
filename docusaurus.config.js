@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Light Saml',
+  title: 'Lite SAML',
   tagline: 'Cookbook',
-  url: 'https://litesaml.github.io',
-  baseUrl: '/docs/',
+  url: 'https://docs.litesaml.com',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

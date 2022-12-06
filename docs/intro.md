@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Hello
 ---
 
-The core library LightSaml was designed for developers who want
+The core library Light Saml was designed for developers who want
 to deal with [SAML 2.0](http://saml.xml.org/saml-specifications) protocol in [PHP](https://php.net/) application.
 
 # Installation
@@ -25,7 +25,7 @@ composer require litesaml/lightsaml
 
 ## About the project
 
-The core library LightSaml was originally develop by [Milos Tomic](https://github.com/tmilos/).  
+The core library Light Saml was originally develop by [Milos Tomic](https://github.com/tmilos/).  
 Since 2021, we maintain the core library with contributors.
 
 ### Contributing

@@ -1,3 +1,3 @@
 # Light Saml Cookbook
 
-Available on [litesaml.github.io/docs](https://litesaml.github.io/docs) !
+Available on [docs.litesaml.com](https://docs.litesaml.com) !
