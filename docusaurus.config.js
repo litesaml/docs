@@ -56,7 +56,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            // label: 'Tutorial',
           },
           {
             href: 'https://github.com/litesaml/docs',
