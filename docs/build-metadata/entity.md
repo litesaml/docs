@@ -4,17 +4,16 @@ sidebar_position: 1
 ---
 
 Entity Descriptor is a document that describes features of a SAML entity. It's a way through which a party reveals
-it's own id (entityID), roles (SP and IDP features), exact locations it communicates trough, it's certificate
-which other parties use to verify it's message signatures and for encryption, as well as some
-other details.
+its own ID (entityID), roles (SP and IDP features), exact locations it communicates through, its certificate
+which other parties use to verify its message signatures and for encryption, as well as some other details.
 
-Most important elements of an SP EntityDescriptor are:
+The most important elements of an SP EntityDescriptor are:
 
 * entityID
 * certificate
 * Assertion Consumer Service
 
-Most important elements of an IDP EntityDescriptor are:
+The most important elements of an IDP EntityDescriptor are:
 
 * entityID
 * certificate
@@ -80,8 +79,8 @@ both SP and IDP, based on few given arguments:
 * Single SignOn location
 * certificate
 
-An EntityDescriptor built above, now using ``SimpleEntityDescriptorBuilder`` can be made, in quite fewer lines
-of code, in the following way:
+An EntityDescriptor built above, now using ``SimpleEntityDescriptorBuilder``, can be made with fewer lines
+of code in the following way:
 
 ```php
 <?php
