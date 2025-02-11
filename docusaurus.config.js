@@ -9,7 +9,7 @@ const config = {
   title: 'Lite SAML',
   tagline: 'Cookbook',
   url: 'https://litesaml.github.io',
-  baseUrl: '/docs',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
