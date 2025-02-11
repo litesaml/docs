@@ -16,7 +16,7 @@ composer require litesaml/lightsaml
 
 # Features
 
-+ [Build Metadata for you ServiceProvider or IdentityProvider](build-metadata)
++ [Build Metadata for your ServiceProvider or IdentityProvider](build-metadata)
 + [Make Request or Response](make-message)
 + [Send or receive Message](use-message)
 + [Apply security like Message signature or encrypt assertions](security)
