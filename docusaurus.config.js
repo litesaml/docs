@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Lite SAML',
   tagline: 'Cookbook',
-  url: 'https://docs.litesaml.com',
-  baseUrl: '/',
+  url: 'https://litesaml.github.io',
+  baseUrl: '/docs',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
